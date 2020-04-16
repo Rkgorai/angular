@@ -1,11 +1,6 @@
-export class DISH {
-    id: string;
-    name: string;
-    image: string;
-    category: string;
-    featured: boolean;
-    label: string;
-    price: string;
-    description: string;
-    // comments : Array;
+export class Comment {
+    rating: number;
+    comment: string;
+    author: string;
+    date: string;
 }
